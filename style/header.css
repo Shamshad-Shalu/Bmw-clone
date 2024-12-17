@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: "BMW Type Next", Arial, Helvetica, sans-serif;
+}
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(https://bmw.scene7.com/is/image/BMW/240708%20BMW%20THE%205%20LAUNCH_India_444?qlt=80&amp;wid=1680&amp;fmt=webp);
+   background-size: cover;
+   box-shadow: inset 320px 150px 140px rgb(26, 25, 25);
+   cursor: pointer;
+}
+.header-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 100px; 
+}
+nav {
+    height: 84px;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+nav .left-section{
+    display: flex;
+    
+}
+.logo-section,
+nav .left-section div,
+.right-section div{
+    display: flex;
+    align-items: center;
+}
+.logo-image {
+    height: 53px;
+    margin-top: 13px; 
+}
+.left-section img {
+    margin-right: 25px;
+}
+nav .left-section div {
+    font-weight: 700px;
+    font-size: 16px;
+    color: white;
+    padding: 0 7px;
+    white-space: nowrap;
+    transition: border 0.1s ease-in-out;
+    
+}
+
+nav .right-section {
+    display: flex;
+    margin-left: 17.6rem;
+}
+.right-section div {
+   padding: 0 13px;
+}
+nav .right-section img {
+    width: 23px;
+}
+nav .left-section div:hover ,
+.right-section div:hover{
+    border-bottom: 4px solid rgb(116, 116, 211);
+}
+.inner-section {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.the-section {
+    font-size: 25px;
+    margin-bottom: -35px;
+}
+.five-section  p {
+    margin: 0;
+    font-size: 260px;
+}
+
+.third-row {
+    margin-top: -50px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.fourth-row {
+    font-size: 20px;
+}
+.fifth-row button {
+margin-top: 16px;
+padding: 10px 20px;
+font-size:20px;
+font-weight: bold;
+color: #fff;
+background-color: #10499e;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+.fifth-row button:hover {
+    background-color: #004bbd;
+}

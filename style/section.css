@@ -1,0 +1,198 @@
+  /* section-1  */
+  .section-1 {
+    padding: 25px 100px 40px 100px;
+    color: #262626;
+}
+.upper-section {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+.grid-section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section-one ,
+.second-section,
+.third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two {
+    font-size: 26px;
+    margin: 29px 0 24px 0;
+   
+}
+.section-three button {
+    font-size: 15px;
+    padding: 14px 24px;
+    font-weight: 600;
+    border: 1px solid #757171;
+    cursor: pointer;
+    transition: border 0.10s ease-in-out;
+    background: none;
+}
+.section-three button:hover  {
+    border: 2px solid #262626;
+}
+#btn {
+    padding: 8px 24px;
+}
+
+/* section-2 */
+.sections {
+    height: 440px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.section-2 {
+    background: url(https://bmw.scene7.com/is/image/BMW/iX:3to1?fmt=webp&wid=1504&hei=501);
+    box-shadow: inset 380px 10px 500pc rgb(0, 0, 0);
+    background-size: cover;
+   
+}
+.inner-section-2 {
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 120px;
+}
+.sections .row-1{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.inner-section-2 .row-2,
+.inner-section-4 .row-2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.inner-section-2 .row-3 button {
+    padding: 20px 70px;
+    font-size: 15px;
+    font-weight: 600;
+    background: none;
+    color: white;
+    border: 1px solid #ebe6e6;
+    cursor: pointer;
+    transition: border 0.20s ease-in-out;
+    border-radius: 5px;
+}
+.inner-section-2 .row-3 button:hover ,
+.inner-section-3 .row-2 button:hover ,
+.inner-section-4 .row-3 button:hover {
+    border: 2px solid #ffff;
+}
+.section-3 {
+    background: url(https://bmw.scene7.com/is/image/BMW/DI21_000048047_3000_3000:3to1?fmt=webp&wid=1504&hei=501);
+    box-shadow: inset  50px -160px 150px -20px  black;
+    background-size: contain;
+}
+.inner-section-3,
+.inner-section-4 {
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 100px; 
+}
+.inner-section-3 .row-2 button,
+.inner-section-4 .row-3 button{
+    padding: 18px 70px;
+    font-size: 15px;
+    font-weight: 600;
+    background: none;
+    color: white;
+    border: 1px solid #ebe6e6;
+    cursor: pointer;
+    transition: border 0.20s ease-in-out;
+    border-radius: 3px;
+}
+
+.section-4 {
+    background: url(https://bmw.scene7.com/is/image/BMW/iX_Banner1:3to1?fmt=webp&wid=1504&hei=501);
+    background-size: contain;
+    box-shadow: inset  0px -149px 91px -20px  black;
+
+}
+
+/* section-5  */
+.section-5 {
+    border-bottom: 1px solid rgb(228, 217, 217);
+    padding: 0 100px 120px 100px ; 
+    height: 440px;
+}
+
+.display-sections {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.display-sections .left-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.right-sections {
+    display: flex;
+    justify-content: center;
+}
+.inner-rows {
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    color: #262626;
+}
+.inner-rows .row-1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.inner-rows .row-2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.inner-rows .row-3 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+}
+.inner-rows .row-3 img {
+    height: 19px;
+}
+
+.inner-rows .row-3:hover {
+    color: #245aac;
+}
+
+.calling-div {
+    position: fixed;
+    bottom: 190px;
+    right: 60px;
+    height: 52px;
+    width: 52px;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    z-index: 100;
+    transition: all .3s ease;
+}
+.calling-div  img {
+    height: 24px;
+    width: 24px;
+}
+.calling-div:hover {
+    background-color: #c5bfbf;
+}
+

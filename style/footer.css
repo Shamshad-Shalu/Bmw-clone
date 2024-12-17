@@ -1,0 +1,85 @@
+
+        /* first-section  */
+        footer .row-no1 {
+            display: flex;
+            margin: 30px 10px 40px 90px; 
+  
+        }
+        .row-no1 .section-row1 {
+            font-size: 15px ;
+        }
+        .row-no1 .section-row2 {
+            font-weight: 600;
+            margin-left: 30px;
+            transition: 0.15s ease-in-out;
+        }
+        .row-no1 .section-row2:hover {
+            color: rgb(34, 34, 219);
+        }
+         /* middle-sectioin  */
+        footer .row-no2 {
+            background-color: rgba(153, 141, 141, 0.08);
+            padding: 80px 100px 50px 60px; 
+        }
+        .top-row-no2 {
+            display: flex;
+        }
+        .top-row-no2 .rows  {
+            padding:  0 12px; 
+            margin-right: 20px;
+        }
+        .top-row-no2 .rows ul {
+            list-style: none;
+            color: #4D4D4D;
+        }
+        .top-row-no2 .rows li {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 12px; 
+            cursor: pointer;
+        }
+        .top-row-no2 .rows li:hover {
+            color: rgb(28, 28, 31);
+        }
+        .top-row-no2 .rows p {
+            font-size: 12px;
+            margin-bottom: 18px; 
+        }
+
+        .bottom-row-no2{
+            margin-top: 80px; 
+            margin-left: 30px; 
+        }
+        .bottom-row-no2 div img {
+            width: 30px;  
+            margin-left: 11px; 
+            cursor: pointer; 
+        }
+
+        /* last-section */
+       .row-no3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;  
+        height: 86px; 
+        align-items: center;
+        color: #262626;
+       }
+       .row-no3 .left {
+        font-size: 18px;
+       }
+
+       .row-no3 .right {
+        display: flex;
+        font-size: 13px;
+        font-weight: 600;
+
+       }
+       .row-no3 .right div {
+        margin-left: 30px;
+        cursor: pointer; 
+       }
+       .row-no3 .right div:hover {
+        color: rgb(44, 44, 187);
+       }
+       
